@@ -40,6 +40,11 @@ export class DialogRefStack<T> {
         if (idx > -1) this._stack.splice(idx, 1);
     }
 
+    removeAll():void {
+        this._stack.forEach(dialogRef => {
+            dialogRef.close();
+        });
+    }
 
     index(index: number): DialogRef<T> {
         return this._stack[index];

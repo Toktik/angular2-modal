@@ -133,6 +133,10 @@ export class Modal {
         return _stack.indexOf(dialogRef);
     }
 
+    closeAll() {
+        return _stack.removeAll();
+    }
+
     get stackLength(): number {
         return _stack.length;
     }
