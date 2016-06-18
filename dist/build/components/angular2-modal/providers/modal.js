@@ -65,6 +65,7 @@ var Modal = (function () {
         if (context === void 0) { context = undefined; }
         if (bindings === void 0) { bindings = undefined; }
         if (viewContainer === void 0) { viewContainer = undefined; }
+        this.closeAll();
         inside = inside === undefined ? !!viewContainer : !!inside;
         if (!viewContainer) {
             if (!this.defaultViewContainer) {

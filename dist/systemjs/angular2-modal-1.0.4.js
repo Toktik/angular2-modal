@@ -926,6 +926,7 @@ System.registerDynamic("providers/modal", ["@angular/core", "../models/tokens", 
       if (viewContainer === void 0) {
         viewContainer = undefined;
       }
+      this.closeAll();
       inside = inside === undefined ? !!viewContainer : !!inside;
       if (!viewContainer) {
         if (!this.defaultViewContainer) {

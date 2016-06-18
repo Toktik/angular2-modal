@@ -86,6 +86,7 @@ export class Modal {
                 viewContainer: ViewContainerRef = undefined,
                 inside?: boolean): Promise<DialogRef<any>> {
 
+        this.closeAll();
         inside = inside === undefined ? !!viewContainer : !!inside;
 
         if (!viewContainer) {

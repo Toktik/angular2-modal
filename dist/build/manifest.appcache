@@ -1,6 +1,6 @@
 CACHE MANIFEST
 # sw.bundle: ng-cli
-# sw.version: b58cc85eabe56197cb8509b965a94b7fa17d7cbb
+# sw.version: ca11df66e4af79b4a95fccf53310432fdb6a9f49
 # sw.file.hash: b4357cf0cb00e19853e6041824ec1ef95a2a2e45
 /bootstrap.js
 # sw.file.hash: 613fa699b334d0ff59567a16843204c85ec640c0
@@ -251,9 +251,9 @@ CACHE MANIFEST
 /components/angular2-modal/providers/dom-modal-renderer.js.map
 # sw.file.hash: 5cc29e3d82763e929dbf91d4b2838f1a7b5eb5a6
 /components/angular2-modal/providers/modal.d.ts
-# sw.file.hash: 217f7e5b326cd9dfefd6b24cf411b7c946f08049
+# sw.file.hash: 4e7e68245418cd20058eca22fee4da3bec974e58
 /components/angular2-modal/providers/modal.js
-# sw.file.hash: 954ca5200ee4eacdebe20133bf61804ccf7c2c1b
+# sw.file.hash: 75373a5deb302388d857794f674ab0cfe9a8097c
 /components/angular2-modal/providers/modal.js.map
 # sw.file.hash: 7a7a10ece53ad278482a114b4bbeb5264a27a53d
 /demo/app/app.css
